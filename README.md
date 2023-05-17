@@ -1,3 +1,6 @@
+In my fork, I hope to include realtime mental state predictions of EEG data collected using a Muse2 device. By building on the repository's feature extraction ability, I will run the features through a classification model to predict the state of a user (concentrated, neutral, or relaxed) using EEG data.
+
+README.md from original repository below:
 ## What is this?
 This script will take EEG brainwaves and create a static dataset through a sliding window approach. Overlapping windows consider wave data and many mathematical attributes are generated in order to describe the wave. This means for Machine Learning you're not classifying point-data and thus temporal techniques such as an LSTM are no longer necessary 
 
